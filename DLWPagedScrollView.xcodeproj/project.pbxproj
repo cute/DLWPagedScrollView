@@ -19,6 +19,8 @@
 		910DD9DC17F6A7C300CF8CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910DD9C417F6A7C300CF8CC3 /* UIKit.framework */; };
 		910DD9E417F6A7C300CF8CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 910DD9E217F6A7C300CF8CC3 /* InfoPlist.strings */; };
 		910DD9E617F6A7C300CF8CC3 /* DLWPagedScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 910DD9E517F6A7C300CF8CC3 /* DLWPagedScrollViewTests.m */; };
+		910DD9F117F6A7FB00CF8CC3 /* GCPagedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910DD9F017F6A7FB00CF8CC3 /* GCPagedScrollView.m */; };
+		910DD9F417F6A84F00CF8CC3 /* DLWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910DD9F317F6A84F00CF8CC3 /* DLWViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		910DD9E117F6A7C300CF8CC3 /* DLWPagedScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DLWPagedScrollViewTests-Info.plist"; sourceTree = "<group>"; };
 		910DD9E317F6A7C300CF8CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		910DD9E517F6A7C300CF8CC3 /* DLWPagedScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLWPagedScrollViewTests.m; sourceTree = "<group>"; };
+		910DD9EF17F6A7FB00CF8CC3 /* GCPagedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPagedScrollView.h; sourceTree = "<group>"; };
+		910DD9F017F6A7FB00CF8CC3 /* GCPagedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPagedScrollView.m; sourceTree = "<group>"; };
+		910DD9F217F6A84F00CF8CC3 /* DLWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLWViewController.h; sourceTree = "<group>"; };
+		910DD9F317F6A84F00CF8CC3 /* DLWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLWViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 		910DD9C617F6A7C300CF8CC3 /* DLWPagedScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				910DD9EF17F6A7FB00CF8CC3 /* GCPagedScrollView.h */,
+				910DD9F017F6A7FB00CF8CC3 /* GCPagedScrollView.m */,
+				910DD9F217F6A84F00CF8CC3 /* DLWViewController.h */,
+				910DD9F317F6A84F00CF8CC3 /* DLWViewController.m */,
 				910DD9CF17F6A7C300CF8CC3 /* DLWAppDelegate.h */,
 				910DD9D017F6A7C300CF8CC3 /* DLWAppDelegate.m */,
 				910DD9D217F6A7C300CF8CC3 /* Images.xcassets */,
@@ -240,6 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910DD9F417F6A84F00CF8CC3 /* DLWViewController.m in Sources */,
+				910DD9F117F6A7FB00CF8CC3 /* GCPagedScrollView.m in Sources */,
 				910DD9D117F6A7C300CF8CC3 /* DLWAppDelegate.m in Sources */,
 				910DD9CD17F6A7C300CF8CC3 /* main.m in Sources */,
 			);
