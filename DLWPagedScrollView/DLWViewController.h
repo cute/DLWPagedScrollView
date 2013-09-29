@@ -3,7 +3,7 @@
 //  DLWPagedScrollView
 //
 //  Created by dengliwa on 13-9-28.
-//  Copyright (c) 2013年 dengliwa. All rights reserved.
+//  Copyright (c) 2013 dengliwa. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

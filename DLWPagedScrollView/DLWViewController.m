@@ -3,15 +3,15 @@
 //  DLWPagedScrollView
 //
 //  Created by dengliwa on 13-9-28.
-//  Copyright (c) 2013年 dengliwa. All rights reserved.
+//  Copyright (c) 2013 dengliwa. All rights reserved.
 //
 
 #import "DLWViewController.h"
-#import "GCPagedScrollView.h"
+#import "DLWPagedScrollView.h"
 
 @interface DLWViewController ()
 
-@property (nonatomic, retain) GCPagedScrollView* scrollView;
+@property (nonatomic, retain) DLWPagedScrollView* scrollView;
 - (UIView*) createViewAtIndex:(NSUInteger) index;
 
 @end
@@ -33,14 +33,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    GCPagedScrollView* scrollView = [[GCPagedScrollView alloc] initWithFrame:self.view.frame];
+    DLWPagedScrollView* scrollView = [[DLWPagedScrollView alloc] initWithFrame:self.view.frame];
     self.scrollView = scrollView;
     scrollView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
     [self.view addSubview:scrollView];
     
     self.scrollView.backgroundColor = [UIColor blackColor];
     
-    for (NSUInteger index = 1; index < 5; index ++) {
+    for (NSUInteger index = 1; index < 6; index ++) {
         //You add your content views here
         [self.scrollView addContentSubview:[self createViewAtIndex:index]];
     }

@@ -1,15 +1,14 @@
 //
-//  GCPagedScrollView.h
-//  GCLibrary
+//  DLWPagedScrollView.h
+//  DLWPagedScrollView
 //
-//  Created by Guillaume Campagna on 10-11-10.
-//  Copyright (c) 2010 LittleKiwi. All rights reserved.
-//
+//  Created by dengliwa on 13-9-28.
+//  Copyright (c) 2013 dengliwa. All rights reserved.
 
 #import <UIKit/UIKit.h>
 
 //Simple UIScrollView subclass that automatically handle UIPageControl and paged content
-@interface GCPagedScrollView : UIScrollView
+@interface DLWPagedScrollView : UIScrollView
 
 @property (nonatomic, assign) NSUInteger page; //Zero based number of page
 
